@@ -1,0 +1,31 @@
+/* Set the dimensions of the map */
+#map {
+  height: 600px; /* Adjust height to fit your page */
+  width: 100%;   /* Full width for responsiveness */
+}
+
+/* Styling for the legend */
+.legend {
+  background: white; /* White background for visibility */
+  padding: 10px;     /* Padding around content */
+  border: 1px solid black; /* Simple black border */
+  border-radius: 5px; /* Slightly rounded corners for a clean look */
+  font-family: Arial, sans-serif; /* Easy-to-read font */
+  font-size: 12px;   /* Small font size */
+  line-height: 1.5;  /* Comfortable spacing between lines */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Legend item color boxes */
+.legend i {
+  width: 18px; /* Square color indicator */
+  height: 18px;
+  display: inline-block;
+  margin-right: 8px; /* Space between color box and text */
+  border-radius: 3px; /* Slight rounding for better appearance */
+}
+
+/* Legend text alignment */
+.legend span {
+  vertical-align: middle; /* Align text with color boxes */
+}
